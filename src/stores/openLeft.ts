@@ -1,9 +1,9 @@
 import { atom } from 'recoil';
 import { recoilPersist } from 'recoil-persist';
 
-const { persistAtom } = recoilPersist();
+/* const { persistAtom } = recoilPersist(); */
 
-export const openLeft = atom({
+/* export const openLeft = atom({
   key: 'openLeft',
   default: true,
 });
@@ -20,3 +20,4 @@ export const selectedMenuState = atom({
   effects_UNSTABLE: [persistAtom],
 });
 
+ */
