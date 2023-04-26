@@ -4,15 +4,15 @@ import { useTranslation } from 'react-i18next';
 /* import TopBtn from '@components/btns/TopBtn'; */
 import ftFamilyLists from './footerList';
 
-/* import './footer.scss'; */
+import '@styles/footer.scss';
 
 export default function Footer() {
   const { t } = useTranslation();
 
   return (
     <div className='ft'>
-      <div className='ftWrap'>
-        <div className='ftText mont'>
+      <div className='ftInner'>
+        <div className='ftText'>
           WE LOOK FORWARD TO WORKING
           <br />
           WITH YOU TO MAKE METAVERSE
@@ -37,12 +37,12 @@ export default function Footer() {
               </span>
             </div>
 
-            <div className='ftCopy mont'>
+            <div className='ftCopy'>
               Copyright ⓒ 2014 SECRET TOWN . ALL RIGHTS RESERVED.
             </div>
           </div>
 
-          <dl className='ftFamily mont'>
+          <dl className='ftFamily'>
             <dt className='ftFamilyTitle'>Family Site</dt>
             <dd>
               <ul className='ftFamilLists'>

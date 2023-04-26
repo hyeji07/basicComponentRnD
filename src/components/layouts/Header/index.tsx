@@ -25,6 +25,7 @@ export default function Header() {
         </div> */}
 
         {/* Menu */}
+        {/* 나중에 div id 주기 */}
         <div className='headerMenu'>
           <ul className='headerLists'>
             {headerLists.map((item, idx) => (
