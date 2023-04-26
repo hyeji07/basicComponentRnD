@@ -7,8 +7,6 @@ import headerLists from './headerList'; //Menu List
 
 import { Link } from 'react-scroll';
 
-/* import './header.scss'; */
-
 export default function Header() {
   /*   const handleClickTop = (): void => {
     window.scrollTo({

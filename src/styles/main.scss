@@ -1,4 +1,5 @@
-@import '@styles/base/resetStyle.scss';
-@import '@styles/base/globalStyle.scss';
+@import './base/resetStyle.scss';
+@import './base/globalStyle.scss';
 
-@import '@styles/header.scss';
+@import './components/header.scss';
+@import './components/footer.scss';

@@ -4,8 +4,6 @@ import { useTranslation } from 'react-i18next';
 /* import TopBtn from '@components/btns/TopBtn'; */
 import ftFamilyLists from './footerList';
 
-import '@styles/footer.scss';
-
 export default function Footer() {
   const { t } = useTranslation();
 
