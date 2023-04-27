@@ -1,6 +1,7 @@
 import { atom } from 'recoil';
 import { recoilPersist } from 'recoil-persist';
 
+/* 사용 x */
 /* const { persistAtom } = recoilPersist(); */
 
 /* export const openLeft = atom({
