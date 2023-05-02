@@ -2,7 +2,7 @@ import { useTranslation } from 'react-i18next';
 
 /* import stLogo from '@assets/images/stLogo.png'; */
 /* import TopBtn from '@components/btns/TopBtn'; */
-import ftFamilyLists from './ftFamilyLists';
+import ftFamilyLists from './footerList';
 
 export default function Footer() {
   const { t } = useTranslation();
